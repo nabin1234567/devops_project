@@ -12,6 +12,7 @@ def divide(x, y):
         return "Cannot divide by zero!"
     return x / y
 
+
 def main():
     print("Please select the operation:")
     print("1. Add")
