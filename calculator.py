@@ -21,8 +21,8 @@ print("4. Divide")
 choice = input("Enter choice (1/2/3/4): ")
 
 if choice in ('1', '2', '3', '4'):
-    num1 = float(input("Enter first number: "))
-    num2 = float(input("Enter second number: "))
+    num1 = float(input("Please enter first number: "))
+    num2 = float(input("Please enter second number: "))
 
     if choice == '1':
         print("Result:", add(num1, num2))
