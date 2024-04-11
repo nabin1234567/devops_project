@@ -11,7 +11,7 @@ def divide(x, y):
     if y == 0:
         return "Cannot divide by zero!"
     return x / y
-
+print(" Please select the number which u want to make it")
 print("Select operation:")
 print("1. Add.")
 print("2. Subtract.")
